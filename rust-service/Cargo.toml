@@ -1,0 +1,6 @@
+[package]
+name = "smartcomply-hasher"
+version = "0.1.0"
+edition = "2021"
+
+# No external dependencies – everything from std
