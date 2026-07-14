@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: smartcomply-config
+data:
+  DEBUG: "0"
+  SECRET_KEY: "change-me"
+  DATABASE_URL: "postgres://smartcomply:smartcomply@db:5432/smartcomply"
+  REDIS_URL: "redis://redis:6379/0"
+  ALLOWED_HOSTS: "localhost,backend"
